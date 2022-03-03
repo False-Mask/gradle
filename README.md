@@ -1,7 +1,5 @@
 # Gradle Source
 
-
-
 > 关于gradle需要知道的内容如下
 > 
 > 1.gradle是一个java程序，所以它的本质就是一堆的jar包
@@ -20,8 +18,6 @@
 > 
 > 最后client进程就挂了，server还在后台慢慢等待任务的到来。
 > 
->  
-> 
 > 下文源码分析分为如下4个部分
 > 
 > gradle wrapper —— gradlew到调用gradle引导"程序"(其实是个jar包)
@@ -31,14 +27,6 @@
 > gradle 构建 —— deamon进程到构建开始
 > 
 > gradle 构建 生命周期 —— 构建开始到构建完成
-
-
-
-
-
-
-
-
 
 # gradle wrapper
 
