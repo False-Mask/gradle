@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":lib2" external.linked.project.path="$MODULE_DIR$/../../../lib2" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="Source" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../lib2/build/classes/java/main" />
+    <output-test url="file://$MODULE_DIR$/../../../lib2/build/classes/java/test" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../lib2">
+      <sourceFolder url="file://$MODULE_DIR$/../../../lib2/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../lib2/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../lib2/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../lib2/src/test/resources" type="java-test-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../lib2/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../lib2/build" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.junit.platform:junit-platform-commons:1.8.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.junit.jupiter:junit-jupiter-api:5.8.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.opentest4j:opentest4j:1.2.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.apiguardian:apiguardian-api:1.1.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.junit.platform:junit-platform-engine:1.8.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.junit.jupiter:junit-jupiter-engine:5.8.1" level="project" />
+  </component>
+</module>

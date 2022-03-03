@@ -1,0 +1,44 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        mavenCentral()
+    }
+}
+rootProject.name = 'Source'
+include ':lib1'
+include ':lib2'
+includeBuild("build-logic")
+
+gradle.beforeSettings {
+    println "beforeSettings"
+}
+
+gradle.settingsEvaluated {
+    println "settingsEvaluated"
+}
+
+gradle.projectsEvaluated {
+    println "projectsEvaluated"
+}
+
+gradle.projectsLoaded {
+    println "projectsLoaded"
+}
+
+gradle.afterProject {
+    println "afterProject"
+}
+
+gradle.beforeProject {
+    println "beforeProject"
+}
+
+gradle.buildFinished {
+    println "buildFinished"
+}
+
+gradle.tingsEvaluated {
+    println "tingsEvaluated"
+}
+
+
